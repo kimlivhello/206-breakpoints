@@ -1,12 +1,20 @@
+html, body {
+  margin: 0px;
+}
 
 /* ----------- For screens 768px and larger ----------- */
-@media () {
+@media (min-width: 768px) {
 	body {
-    background: red;
+    background: pink;
+    width: 90%;
   }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
-@media () {
 
+@media (min-width: 1200px) {
+  body {
+    background: lightseagreen;
+    width: 90%;
+  }
 }
